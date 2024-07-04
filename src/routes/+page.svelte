@@ -83,11 +83,11 @@ import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStori
       </div> -->
 
       <!-- big image -->
-      <div class="section-fullscreen">
+      <!-- <div class="section-fullscreen">
         <div>
           <img src="images/6581af376865db8f181c44ec_CK5%20%281%29.webp" loading="lazy" alt="Katie anlehnend an einer großen Hauswand. An der Wand sind Streifen gemalt.">
         </div>
-      </div>
+      </div> -->
 
 
       <TheStories />
@@ -143,12 +143,11 @@ import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStori
 
 <CtaScenarios />
 
-<Faq />
 
 <!-- big real photo -->
 <div class="section-fullscreen">
   <div>
-    <img src="images/6581a628f7709eedf63082e4_20231021_14-08-47_R5__4692.jpg" loading="lazy" alt="Katie im Interview">
+    <img src="images/oleg-darkdev-vibe.jpg" loading="lazy" alt="Boardgame conception photo">
   </div>
 </div>
 
@@ -191,7 +190,9 @@ import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStori
 </div> -->
 
 
-        <DividerSection />
+        <!-- <DividerSection /> -->
+
+        <Faq />
 
 
         <Contact />
@@ -204,7 +205,7 @@ import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStori
           </div>
         
 
-        <Footer />
+        <!-- <Footer /> -->
         
       </div>
     </div>
