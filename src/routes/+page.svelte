@@ -195,7 +195,7 @@ import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStori
         <Faq />
 
 
-        <!-- <Contact /> -->
+        <Contact />
         
         <div class="footer background-color-schwarz">
           <!-- <div class="section-fullscreen-muster background-color-lila">
