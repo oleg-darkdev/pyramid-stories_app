@@ -4,8 +4,8 @@ import tagsLeft  from './data/tagsLeft';
 import tagsRight from './data/tagsRight';
 import features from './data/features';
 import boardgamesList from './data/boardgamesList';
-// import scenarios from './data/scenarios';
+import faq from './data/faq';
 // import scenarios from './data/scenarios';
 
 
-export { scenarios, stats, tagsLeft, tagsRight, features, boardgamesList  };
+export { scenarios, stats, tagsLeft, tagsRight, features, boardgamesList, faq  };
