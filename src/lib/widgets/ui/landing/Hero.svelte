@@ -66,7 +66,7 @@
 
 .hero-muster {
   aspect-ratio: 3;
-  background-color: var(--blau);
+  background-color: var(--blue);
   background-image: url(/images/hero.svg);
   background-position: 50%;
   background-repeat: no-repeat;
