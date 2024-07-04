@@ -12,7 +12,7 @@
             <div class="_12-columns-grid">
             <div class="margin-bottom margin-xhuge no-margin-mobile">
                 <div class="margin-bottom margin-medium">
-                <h2 class="heading-style-h1 text-color-gelb">Part of <br> THE-Stories  </h2>
+                <h2 class="heading-style-h1 text-color-yellow">Part of <br> THE-Stories  </h2>
                 </div>
             </div>
 
@@ -23,7 +23,7 @@
                         <a href='{boardgame.link}' target="_blank" class='no-underline'>
                             <div class="pain-wrap">
                                 <div class="margin-right margin-medium">
-                                <div class="heading-style-h4 text-color-gelb">0{i + 1}</div>
+                                <div class="heading-style-h4 text-color-yellow">0{i + 1}</div>
                                 </div>
                                 <div>
                                     <h3 class="heading-style-h4 text-neutral-400 mb-4">{boardgame.title}</h3>
@@ -36,7 +36,7 @@
                     {/each}
 
                     <div>
-                        <a href="https://the-stories.vercel.app/" target="_blank" class="button button-color-gelb w-button">More about THE Stories</a>
+                        <a href="https://the-stories.vercel.app/" target="_blank" class="button button-color-yellow w-button">More about THE Stories</a>
                     </div>
                 </div>
             </div>

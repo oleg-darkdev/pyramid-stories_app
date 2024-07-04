@@ -3,7 +3,7 @@
     import {features} from '$shared'; 
 </script>
 
-<section class="section-card background-color-gelb">
+<section class="section-card background-color-yellow">
     <div class="padding-global">
                         <a name="features" />
 

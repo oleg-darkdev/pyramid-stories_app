@@ -84,8 +84,8 @@
   position: relative;
 }
 .akkordeon-item {
-  border-top: 2.5px solid var(--schwarz);
-  border-bottom: 2.5px none var(--schwarz);
+  border-top: 2.5px solid var(--darkGray);
+  border-bottom: 2.5px none var(--darkGray);
   flex-direction: column;
   justify-content: flex-end;
   align-items: stretch;

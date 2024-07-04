@@ -13,7 +13,7 @@
           <div class="tab-wrap tabs-menu slideup-1 w-tab-menu">
               <div class="tab-link-tab-1  w-inline-block  w-tab-link w--current">
                 <div class="margin-bottom margin-medium">
-                  <h2 class="heading-style-h1 text-color-gelb">F.A.Q.</h2>
+                  <h2 class="heading-style-h1 text-color-yellow">F.A.Q.</h2>
                 </div>
                 <div>
                   <h3 class="heading-style-h6 text-color-creme">Lorem Ipsum is simply dummy text of the printing</h3>
@@ -109,7 +109,7 @@
   opacity: 1;
 }
 .tab-link-tab-1.w--current {
-  border-left: 2.5px solid var(--schwarz);
+  border-left: 2.5px solid var(--darkGray);
   background-color: var(--transparent);
   opacity: 1;
 }

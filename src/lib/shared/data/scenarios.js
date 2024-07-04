@@ -5,7 +5,7 @@ const scenarios = [
       desc: [`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`, ``, ``],
       img: '',
       avatar: 'images/656251eb5d352cf1345b2243_work-muster.svg',
-      brandColor: '' 
+      brandColor: 'text-neutral-300' 
     },
     {
       title: `Lorem Ipsum has been the industry's standard dummy text ever`,
@@ -13,7 +13,7 @@ const scenarios = [
       desc: [`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`, ``, ``],
       img: '',
       avatar: 'images/656f09c4d018c8f865ff703c_ich_du-muster.svg',
-      brandColor: 'text-color-blau' 
+      brandColor: 'text-color-blue' 
     },
     {
       title: `Lorem Ipsum has been the industry's standard dummy text ever`,
@@ -29,7 +29,7 @@ const scenarios = [
       desc: [`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`, ``, ``],
       img: '',
       avatar: 'images/656f09c41bd47931a911241c_werte_indentiteat-muster.svg ',
-      brandColor: 'text-color-gelb' 
+      brandColor: 'text-color-yellow' 
     },
     {
       title: `Lorem Ipsum has been the industry's standard dummy text ever`,
@@ -45,7 +45,7 @@ const scenarios = [
       desc: [`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`, ``, ``],
       img: '',
       avatar: 'images/656f09c486f66aefc21049b7_kultur_sprache-muster.svg',
-      brandColor: 'text-color-lila' 
+      brandColor: 'text-color-violet' 
     },
   ];
 

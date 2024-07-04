@@ -2,7 +2,7 @@
   <div class="_50-50-container">
     <div class="_50-wrap">
       <div class="margin-bottom margin-medium">
-        <p class="heading-style-zahlen text-color-blau">
+        <p class="heading-style-zahlen text-color-blue">
           Lorem Ipsum 
           <span class="text-kleinschreibung">been </span>
           <br>
@@ -13,7 +13,7 @@
           and typesetting industry. 
         </p>
       </div>
-      <div class="heading-style-h6">(is simply: dummy)</div>
+      <div class="heading-style-h6 text-color-blue">(is simply: dummy)</div>
     </div>
     <div class="_50-wrap how-muster"></div>
   </div>

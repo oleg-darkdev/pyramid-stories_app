@@ -12,7 +12,7 @@
         <div class="line background-color-creme"></div>
     </div>
     {#each scenario.desc as desc}
-        <p class="text-size-regular">
+        <p class="text-size-regular {scenario.brandColor}">
             {desc}
         </p>
     {/each}

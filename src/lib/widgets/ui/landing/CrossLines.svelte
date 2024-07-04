@@ -3,7 +3,7 @@
     import {tagsLeft, tagsRight} from '$shared'; 
 </script>
 
-<section class="section-words background-color-blau">
+<section class="section-words background-color-blue">
   <div class="words-container">
     <div class="carousel left">
       <div class="words-carousel-wrap left">

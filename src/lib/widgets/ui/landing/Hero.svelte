@@ -1,8 +1,8 @@
-<section class="section-home-header background-color-gelb">
+<section class="section-home-header background-color-yellow">
 	<div class="w-full mx-auto ">
 		<div class="w-full ">
 			<div
-				class="hero-heading-wrap background-color-gelb "
+				class="hero-heading-wrap background-color-yellow "
 			>
 				<h1 class="heading-style-hero w-full lg:mt-20">THE  Pyramid Stories</h1>
 			</div>

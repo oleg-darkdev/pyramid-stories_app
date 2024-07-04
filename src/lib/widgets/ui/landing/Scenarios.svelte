@@ -4,7 +4,7 @@
 </script>
 
 
-<section class="section-work">
+<section class="">
   <div class="padding-global">
             <a name="pyramids" />
 
@@ -12,7 +12,7 @@
       <div class="padding-section-large no-margin-bottom">
 
         <div class="margin-bottom margin-xhuge">
-          <h2 class="heading-style-h0 text-align-center slideup-1">Scenarios</h2>
+          <h2 class="heading-style-h0 text-align-center slideup-1 text-neutral-300">Scenarios</h2>
         </div>
       </div>
     </div>

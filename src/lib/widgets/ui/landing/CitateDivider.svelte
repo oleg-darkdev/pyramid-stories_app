@@ -1,4 +1,4 @@
-<div class="section-zitat background-color-gelb">
+<div class="section-zitat background-color-yellow">
 <div class="_50-50-container">
     <div class="_50-wrap">
     <div class="margin-bottom margin-medium">
