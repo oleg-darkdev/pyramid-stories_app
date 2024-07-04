@@ -195,14 +195,14 @@ import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStori
         <Faq />
 
 
-        <Contact />
-
+        <!-- <Contact /> -->
+        
         <div class="footer background-color-schwarz">
-          <div class="section-fullscreen-muster background-color-lila">
+          <!-- <div class="section-fullscreen-muster background-color-lila">
             <div>
               <img src="images/65610199ca3e76bc29fa33fb_how_muster.svg" loading="lazy" alt="" class="footer-muster">
             </div>
-          </div>
+          </div> -->
         
 
         <!-- <Footer /> -->
