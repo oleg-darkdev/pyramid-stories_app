@@ -47,8 +47,8 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
                         </div>
                     </div>
                     <!-- check this id -->
-                    <div id="w-node-_287f0be2-887a-58b8-ed6b-1f2618db33ad-c0c55947" class="image-wrap">
-                        <img src="images/6581a628fdbe9ae996a00460_CK3.webp" loading="lazy" alt="" class="frame-image-portrait rotate-right">
+                    <div class="author-img image-wrap ">
+                        <img src="images/oleg-darkdev.jpg" loading="lazy" alt="Oleg Medvedev photo" class="frame-image-portrait rotate-right">
                     </div>
                 </div>
             </div>
@@ -61,3 +61,17 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
         </div>
     </div>
 </section>
+
+
+<style>
+.author-img {
+  grid-area: 1/8/2/12;
+}
+
+@media screen and (max-width: 991px) {
+ .author-img {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+    justify-self: center;
+  }
+}
+</style>

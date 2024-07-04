@@ -1,5 +1,7 @@
 <section  class="section-kontakt background-color-lila">
   <div class="padding-global">
+                <a name="contact" />
+
     <div class="container-main">
       <div class="padding-section-large">
         <div class="margin-bottom margin-xhuge">
@@ -12,17 +14,15 @@
               <div class="margin-bottom margin-xlarge">
                 <h3 class="heading-style-h4">
                   Lorem Ipsum is simply dummy text of 
-                  <br>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                    <br> 
                   Lorem Ipsum is simply dummy text of 
                 </h3>
               </div>
               <div class="image-wrap">
-                <img src="images/6581a627d61a9f765cf5571d_Kontaktfoto.webp" loading="lazy" alt="Katie in ihrem Büro" class="frame-image-landscape rotate-left">
+                <img src="images/oleg-archaeo.JPG" loading="lazy" alt="Oleg Medvedev archaeology photo" class="frame-image-landscape rotate-left">
               </div>
             </div>
-            
+
           </div>
         </div>
         <div>

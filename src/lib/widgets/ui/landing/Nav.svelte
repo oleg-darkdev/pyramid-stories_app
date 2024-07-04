@@ -1,16 +1,41 @@
+<script>
+  const navigation = [
+      {
+      title: 'About',
+      href: '#about'
+    },
+    {
+      title: 'Features',
+      href: '#features'
+    },
+    {
+      title: 'Pyramids',
+      href: '#pyramids'
+    },
+    {
+      title: 'F.A.Q.',
+      href: '#faq'
+    },
+
+  ]
+</script>
+
 <!-- check this id -->
 <div data-w-id="a51ee839-f4ad-c6ae-0996-866b5789b4ff" role="banner" class="nav w-nav">
   <div class="nav-wrap h-16">
     <a href="/" class="logo-link w-inline-block w--current">
       <img src="" loading="lazy" alt="Logo" class="logo">
     </a>
-    
+
     <div class="navbar-social-wrap hide-tablet">
-      <a href="/" target="_blank" class="nav-social-link first">Lorem </a>
+      <a href="/app" target="_blank" class="nav-social-link first">App</a>
+      
 
-      <a href="/" class="nav-social-link">Lorem </a>
+      {#each navigation as nav}
+        <a href="{nav.href}" class="nav-social-link">{nav.title}</a>
+      {/each}
 
-      <a href="/" class="nav-social-link last">App</a>
+      <a href="#contact"  class="nav-social-link last"> Contact</a>
     </div>
 
 

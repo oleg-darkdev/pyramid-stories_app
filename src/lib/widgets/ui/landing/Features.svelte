@@ -5,6 +5,8 @@
 
 <section class="section-card background-color-gelb">
     <div class="padding-global">
+                        <a name="features" />
+
         <div class="container-main">
         <div class="padding-section-large">
             <div class="card-container hide-tablet">
@@ -15,6 +17,7 @@
             </div>
 
             <div>
+
                 <div class="margin-bottom margin-xhuge">
                     <h3 class="heading-style-h2">
                         Lorem Ipsum is simply  

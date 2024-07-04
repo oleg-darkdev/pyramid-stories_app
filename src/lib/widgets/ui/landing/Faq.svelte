@@ -1,9 +1,12 @@
 <section  class="section-faq min-h-screen background-color-gr-n">
   <div class="padding-global">
     <div class="container-main">
+       <a name="faq" />
       <div class="padding-section-large">
         <div  class="tab w-tabs">
           <!-- CHECK THIS ID -->
+                     
+
           <div id="w-node-_7e69e718-a3f0-ef41-0df1-9745ad24a3ee-c0c55947" class="tabs-menu slideup-1 w-tab-menu">
               <div class="tab-link-tab-1 w-inline-block w-tab-link w--current">
                 <div class="margin-bottom margin-medium">
@@ -13,7 +16,7 @@
                   <h3 class="heading-style-h6 text-color-creme">Lorem Ipsum is simply dummy text of the printing</h3>
                 </div>
               </div>
-            
+
           </div>
 
           <!-- CHECK THIS ID -->
