@@ -67,7 +67,7 @@
 .hero-muster {
   aspect-ratio: 3;
   background-color: var(--blau);
-  background-image: url(/images/6576e8cef4a4f5c410ca23ea_hero-how_muster-blau.svg);
+  background-image: url(/images/hero.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +83,7 @@
   .hero-muster {
     aspect-ratio: auto;
     object-fit: none;
-    background-image: url(/images/657c157f1fa3de04bbdd2feb_hero-muster-tablet.svg);
+    background-image: url(/images/hero-tablet.svg);
     height: 50vh;
   }
 
@@ -116,7 +116,7 @@
 @media screen and (max-width: 479px) {
   .hero-muster {
     aspect-ratio: 2/3;
-    background-image: url(/images/657c157f0442143e3dd56236_hero-muster-mobile-portrait.svg);
+    background-image: url(/images/hero-mobile-portrait.svg);
   }
   
   .hero-heading-wrap {
