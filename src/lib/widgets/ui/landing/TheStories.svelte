@@ -1,6 +1,6 @@
 <script>
   import {ScenarioCard} from '$entities';
-  import {scenarios} from '$shared'; 
+  import {boardgamesList} from '$shared'; 
 
   
 </script>
@@ -12,24 +12,31 @@
             <div class="_12-columns-grid">
             <div class="margin-bottom margin-xhuge no-margin-mobile">
                 <div class="margin-bottom margin-medium">
-                <h2 class="heading-style-h1 text-color-blau">Lorem <br> dummy text of  </h2>
+                <h2 class="heading-style-h1 text-color-gelb">Part of <br> THE-Stories  </h2>
                 </div>
             </div>
 
             <!-- check this id -->
             <div id="w-node-_73d74438-ab10-a082-7ea6-8d653619a1be-c0c55947" class="slideup-1">
                 <div class="w-layout-grid _2-columns-grid">
-                    {#each scenarios as boardgame}
-                        <div class="pain-wrap">
-                            <div class="margin-right margin-medium">
-                            <div class="heading-style-h4 text-color-blau">01</div>
+                    {#each boardgamesList as boardgame, i}
+                        <a href='{boardgame.link}' target="_blank" class='no-underline'>
+                            <div class="pain-wrap">
+                                <div class="margin-right margin-medium">
+                                <div class="heading-style-h4 text-color-gelb">0{i + 1}</div>
+                                </div>
+                                <div>
+                                    <h3 class="heading-style-h4 text-neutral-400 mb-4">{boardgame.title}</h3>
+                                    <p class="text-size-regular text-neutral-400  slideup-3">
+                                        {boardgame.desc}
+                                    </p>
+                                </div>
                             </div>
-                            <h3 class="heading-style-h4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                        </div>
+                        </a>
                     {/each}
 
                     <div>
-                        <a href="https://the-stories.vercel.app/" target="_blank" class="button button-color-blau w-button">More about THE Stories</a>
+                        <a href="https://the-stories.vercel.app/" target="_blank" class="button button-color-gelb w-button">More about THE Stories</a>
                     </div>
                 </div>
             </div>
