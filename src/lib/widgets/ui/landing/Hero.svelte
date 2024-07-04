@@ -2,9 +2,9 @@
 	<div class="w-full mx-auto ">
 		<div class="w-full ">
 			<div
-				class="hero-heading-wrap background-color-gelb"
+				class="hero-heading-wrap background-color-gelb "
 			>
-				<h1 class="heading-style-hero w-full mt-20">THE  Pyramid Stories</h1>
+				<h1 class="heading-style-hero w-full lg:mt-20">THE  Pyramid Stories</h1>
 			</div>
 			<div class="hero-muster-wrap">
 				<div class="hero-muster" />
@@ -22,10 +22,10 @@
   text-indent: -8px;
   text-transform: uppercase;
   font-family: din-2014-narrow, sans-serif;
-  font-size: 10svw;
+  font-size: 7svw;
   font-weight: 800;
   line-height: 0.9;
-  height: 260px;
+
 }
 
 .hero-heading-wrap {
@@ -78,7 +78,12 @@
 
 
 
+@media screen and (min-width: 991px) {
+  .heading-style-hero {
+    height: 160px;
+  }
 
+}
 @media screen and (max-width: 991px) {
   .hero-muster {
     aspect-ratio: auto;
