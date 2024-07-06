@@ -2,7 +2,7 @@ const boardgamesList = [
 	{
 		title: 'PALEO-STORIES',
 		img: '/images/boardgames/paleo-stories.svg',
-		link: '/',
+		link: 'https://paleo-stories.vercel.app/',
 		anchor: '#paleo-stories',
 		desc: `Paleo Stories - educational boardgame, enhanced by the interactive web application, that introduces players to the world of paleontological expeditions and the science of paleontology. `
 	},
@@ -34,7 +34,7 @@ const boardgamesList = [
 		anchor: '#12262-stories',
 		desc: `Explore the Kolskaya ultra-deep borehole, one of the deepest man-made facilities on the planet, drilled to a record depth of 12,262 meters. Discover a symbol of scientific and technical progress that has provided unique data for geological and geophysical research and generated many myths and legends and it's been called "the well to Hell."`
 	},
-	
+
 	{
 		title: 'Belarus/Poland-STORIES',
 		img: '/images/boardgames/by-pl-stories.svg',
