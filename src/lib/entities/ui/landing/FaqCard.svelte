@@ -3,10 +3,7 @@
 </script>
 
 <div class="akkordeon-item">
-    <div class="akkordeon-title-container" on:click={()=> {
-        faqData.show != faqData.show;
-        console.log(faqData.show)        
-    }}>
+    <div class="akkordeon-title-container" on:click={()=> faqData.show = !faqData.show}>
         <div class="akkordeon-title-wrap">
             <div class="margin-right margin-medium">
                 <div class="faq-nummer">0{faqData.id}</div>
@@ -161,6 +158,20 @@
   }
   .akkordeon-plus-wrap.faq:hover {
     background-color: var(--transparent);
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .akkordeon-content-wrap {
+    padding-left: 3.7rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .akkordeon-content-wrap {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 </style>

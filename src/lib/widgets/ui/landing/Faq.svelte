@@ -19,12 +19,11 @@
                   <h3 class="heading-style-h6 text-color-creme">Lorem Ipsum is simply dummy text of the printing</h3>
                 </div>
               </div>
-
           </div>
 
           <div class="tabs-content slideup-2 w-tab-content">
             <div class=" w--tab-active">
-              {#each faq as faqData }
+              {#each faq as faqData (faqData.id)}
                 <FaqCard {faqData} />
               {/each}
             </div>            
