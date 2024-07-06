@@ -1,4 +1,4 @@
-<section class="section-about background-color-blue pb-16">
+<section class="section-about background-color-blue lg:pb-16 pb-1">
     <div class="padding-global">
         <div class="container-main">
         <div class="padding-section-large no-margin-bottom">
@@ -49,7 +49,7 @@
                                 <a href='https://oleg-darkdev.vercel.app/' target="_blank" class="button w-button">Get in touch</a>
                             </div>
                             <!-- <a href="/" class="button infobox-open w-button">Lorem Ipsum is simply</a> -->
-                            <a href='https://oleg-darkdev.vercel.app/' target="_blank"class="button infobox-open-mobile w-button">Get in touch</a>
+                            <!-- <a href='https://oleg-darkdev.vercel.app/' target="_blank"class="button infobox-open-mobile w-button">Get in touch</a> -->
                         </div>
                     </div>
                     <!-- check this id -->
