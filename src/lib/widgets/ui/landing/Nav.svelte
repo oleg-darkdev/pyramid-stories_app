@@ -20,16 +20,15 @@
   ]
 </script>
 
-<!-- check this id -->
-<div data-w-id="a51ee839-f4ad-c6ae-0996-866b5789b4ff" role="banner" class="nav w-nav">
+<nav role="banner" class="nav w-nav">
   <div class="nav-wrap h-16">
     <a href="/" class="logo-link w-inline-block w--current">
-      <img src="" loading="lazy" alt="Logo" class="logo">
+      <img src="/images/logo.svg" loading="lazy" alt="Logo" class="w-[200px]">
     </a>
 
     <div class="navbar-social-wrap hide-tablet">
       <a href="/app" target="_blank" class="nav-social-link first">App</a>
-      
+
 
       {#each navigation as nav}
         <a href="{nav.href}" class="nav-social-link">{nav.title}</a>
@@ -66,4 +65,4 @@
     </div>
   </nav> -->
 
-</div>
+</nav>
