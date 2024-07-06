@@ -2,7 +2,7 @@ const features = [
 	{
 		id: 1,
 		brandBg: 'slideup-2 ',
-		title: 'Education 4.0 goals.',
+		title: 'Education 4.0.',
 		desc: `The use of gamification and technology allows the educational process to be adapted to the individual needs of students and stimulates the development of core 21st century competencies such as critical thinking, creativity and collaboration, which is completely in accordance with the goals of Education 4.0.`
 	},
 	{
