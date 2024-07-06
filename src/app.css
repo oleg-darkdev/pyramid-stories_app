@@ -2932,28 +2932,7 @@ figure {
   width: 7rem;
   display: none;
 }
-.nav-social-link {
-  border-right: 2.5px solid var(--darkGray);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  flex: none;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  font-family: 'din-2014-narrow', sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-.nav-social-link:hover {
-  text-decoration: underline;
-}
-.nav-social-link.last {
-  border-right-style: none;
-  padding-right: 0;
-}
-.nav-social-link.first {
-  padding-left: 0;
-}
+
 .menu-social-wrap {
   text-align: left;
   align-items: center;
@@ -4327,9 +4306,7 @@ figure {
   .nav---menu-inner {
     padding-left: 1.25rem;
   }
-  .nav-social-link {
-    font-size: 0.85rem;
-  }
+
   .menu-social-wrap {
     grid-column-gap: 0.25rem;
     grid-row-gap: 0.25rem;
