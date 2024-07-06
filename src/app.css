@@ -2,8 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.heading-style-zahlen {
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  font-family: din-2014-narrow, sans-serif;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 0.95;
+}
 .heading-style-zahlen {
   font-feature-settings: "pnum";
+}
+
+@media screen and (max-width: 991px) {
+  .heading-style-zahlen {
+    letter-spacing: 0;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading-style-zahlen {
+    font-size: 2rem;
+  }
 }
 
 html {
@@ -3414,20 +3436,8 @@ figure {
     0 125px 24.8px rgba(0, 0, 0, 0.047), 0 175px 36px rgba(0, 0, 0, 0.05),
     0 271px 57.8px rgba(0, 0, 0, 0.055);
 }
-.words-container {
-  z-index: 8;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-top: 8rem;
-  display: flex;
-  overflow: hidden;
-}
-.section-words {
-  align-items: center;
-  position: relative;
-}
+
+
 ._2-columns-grid {
   grid-column-gap: 3.75rem;
   grid-row-gap: 4rem;
@@ -3529,14 +3539,7 @@ figure {
   position: relative;
   overflow: hidden;
 }
-.section-zitat {
-  position: relative;
-}
-.section-zitat.background-color-yellow {
-  background-color: var(--yellow);
-  position: relative;
-  overflow: hidden;
-}
+
 
 .tab-link-tab-2 {
   border-left: 2.5px solid var(--transparent);
@@ -3663,12 +3666,7 @@ figure {
   align-items: stretch;
   display: flex;
 }
-.how-muster {
-  background-image: url(/images/65670c8dc7577bc7f8d4ef51_zitat_how_muster.svg);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .section-fullscreen-muster {
   height: 8rem;
 }
@@ -3690,25 +3688,7 @@ figure {
   display: flex;
   position: relative;
 }
-.carousel {
-  flex-direction: row;
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-}
-.carousel.left {
-  background-color: var(--darkGray);
-  color: var(--blue);
-  width: 102%;
-  margin-bottom: 0.75rem;
-  transform: rotate(1.5deg);
-}
-.carousel.right {
-  background-color: var(--creme);
-  justify-content: flex-end;
-  position: relative;
-  overflow: hidden;
-}
+
 .logo-carousel-wrap {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -3735,14 +3715,7 @@ figure {
   background-color: var(--beige);
   color: var(--darkGray);
 }
-.kundenlogo {
-  filter: invert(94%);
-  width: 14rem;
-  margin-right: 4rem;
-}
-.kundenlogo.large {
-  width: 8rem;
-}
+
 .text-color-gr-n {
   color: var(--green);
 }
@@ -3859,14 +3832,7 @@ figure {
 .katie-caiger-slide-wrap {
   z-index: 0;
 }
-.heading-style-zahlen {
-  letter-spacing: -2px;
-  text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
-  font-size: 5rem;
-  font-weight: 800;
-  line-height: 0.95;
-}
+
 .width-80 {
   width: 80%;
 }
@@ -3936,16 +3902,7 @@ figure {
   position: relative;
   overflow: hidden;
 }
-.words-carousel-wrap {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  flex: none;
-  width: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  display: flex;
-  transform: perspective(1px);
-}
+
 .tm-text {
   font-size: 1.8rem;
 }
@@ -4243,9 +4200,7 @@ figure {
   .info-box-fly-in.background-color-creme.text-color-blue {
     display: none;
   }
-  .words-container {
-    padding-top: 6rem;
-  }
+
   ._2-columns-grid {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
@@ -4280,10 +4235,7 @@ figure {
   .fs-styleguide_heading-medium-2 {
     font-size: 3rem;
   }
-  .heading-style-zahlen {
-    letter-spacing: 0;
-    font-size: 3rem;
-  }
+
   ._50-wrap {
     width: 100%;
   }
@@ -4506,9 +4458,7 @@ figure {
   .info-box-fly-in {
     padding: 1.25rem;
   }
-  .words-container {
-    padding-top: 4rem;
-  }
+
   ._2-columns-grid.align-center {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
@@ -4523,12 +4473,7 @@ figure {
   .text-area {
     font-size: 1rem;
   }
-  .kundenlogo {
-    width: 12rem;
-  }
-  .kundenlogo.large {
-    width: 6rem;
-  }
+
   .kontakt-box {
     padding: 1.25rem;
   }
@@ -4540,8 +4485,7 @@ figure {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
-  .fs-styleguide_heading-medium-2,
-  .heading-style-zahlen {
+  .fs-styleguide_heading-medium-2{
     font-size: 2rem;
   }
   .width-80 {
@@ -4709,10 +4653,10 @@ figure {
     border-width: 0.75rem;
   }
   .heading-style-h0 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .heading-style-h0.text-align-center.slideup-1 {
-    text-align: left;
+    text-align: center;
   }
   .nav-link {
     letter-spacing: -1px;
@@ -4822,13 +4766,7 @@ figure {
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
-  .kundenlogo {
-    width: 8rem;
-    margin-right: 3rem;
-  }
-  .kundenlogo.large {
-    width: 4rem;
-  }
+
   .frame-image-portrait {
     border-width: 0.75rem;
     width: 14rem;
@@ -4846,10 +4784,7 @@ figure {
   .width-80--mobile {
     width: 80%;
   }
-  .words-carousel-wrap {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
+
   .superscript {
     font-size: 1.125rem;
   }
