@@ -1,24 +1,21 @@
 const stats = [
     {
-        title: '1,7 Lorem ',
-        subTitle: 'Lorem Ipsum is simply dummy text of '
+        title: '14 Pyramids ',
+        subTitle: 'Quantity of pyramids added'
     },
     {
-        title: '1,7 Lorem ',
-        subTitle: 'Lorem Ipsum is simply dummy text of '
+        title: '1800 Components',
+        subTitle: 'Quantity of components in the boardggame'
     },
     {
-        title: '1,7 Lorem ',
-        subTitle: 'Lorem Ipsum is simply dummy text of '
+        title: '10 Scenarios',
+        subTitle: 'Quantity of available scenarios '
     },
     {
-        title: '1,7 Lorem ',
-        subTitle: 'Lorem Ipsum is simply dummy text of '
+        title: '6 Cultures',
+        subTitle: 'Quantity of different cultures'
     },
-    {
-        title: '1,7 Lorem ',
-        subTitle: 'Lorem Ipsum is simply dummy text of '
-    },
+    
 ]
 
 
