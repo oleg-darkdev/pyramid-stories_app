@@ -16,13 +16,9 @@
 </section>
 
 
-<!-- the-stories.png -->
-
-
 <style>
-    /* citate_divider.svg */
 .the-stories-banner {
-  background-image: url(/images/1.png);
+  background-image: url(/images/the-stories.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
