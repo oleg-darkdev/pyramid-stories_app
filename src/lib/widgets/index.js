@@ -14,9 +14,9 @@ import CtaScenarios from './ui/landing/CtaScenarios.svelte';
 import CitateDivider from './ui/landing/CitateDivider.svelte';
 import TheStories from './ui/landing/TheStories.svelte';
 import DividerSection from './ui/landing/DividerSection.svelte';
-// import CitateDivider from './ui/landing/CitateDivider.svelte';
+import TheStoriesDivider from './ui/landing/TheStoriesDivider.svelte';
 // import CitateDivider from './ui/landing/CitateDivider.svelte';
 // import CitateDivider from './ui/landing/CitateDivider.svelte';
 
 
-export { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, TheStories, Features, AboutAuthor, CrossLines, CitateDivider, Stats, Scenarios, Footer, Contact, Faq, CtaScenarios };
+export { Nav, Hero, Intro, ScenariosLogosRow, TheStoriesDivider, DividerSection, TheStories, Features, AboutAuthor, CrossLines, CitateDivider, Stats, Scenarios, Footer, Contact, Faq, CtaScenarios };
