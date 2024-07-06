@@ -4,23 +4,23 @@
         <div class="padding-section-large">
             <div class="margin-bottom margin-small">
             <h2 class="heading-style-h2 text-align-center slideup-1">
-                Lorem Ipsum is simply dummy text 
+                About
                 <br>
-                of the printing and typesetting
+                THE Pyramid Stories
              </h2>
             </div>
             <div class="align-center">
             <div class="width-80--mobile">
                 <h3 class="heading-style-h5 text-align-center text-color-creme slideup-2">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    Educational board game, enhanced by an interactive web application, where players conduct archaeological excavations of old pyramids in search of ancient artifacts. In the game process, players learn about history, culture using advanced technologies.
                 </h3>
             </div>
             </div>
             <div class="button-wrap align-center">
             <div class="margin-right margin-medium">
-                <a href="/" class="button w-button">Lorem Ipsum is simply</a>
+                <a href="#about" class="button w-button">About</a>
             </div>
-            <a href="/" class="button is-secondary w-button">Lorem Ipsum is simply</a>
+            <a href="#features" class="button is-secondary w-button">Features</a>
             </div>
         </div>
         </div>
