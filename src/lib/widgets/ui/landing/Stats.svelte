@@ -3,7 +3,7 @@
     import {stats} from '$shared'; 
 </script>
 
-<section class="section-zahlen background-color-creme">
+<section class="scenarion-stats background-color-creme">
     <div class="_50-50-container">
         <div class="_50-wrap">
         <!-- zahlen-image -->
@@ -42,4 +42,14 @@
   right: 0%;
 }
 
+.scenarion-stats.background-color-gr-n {
+  position: relative;
+}
+
+@media screen and (max-width: 479px) {
+  .scenarion-stats {
+    flex-direction: column;
+    display: flex;
+  }
+}
 </style>

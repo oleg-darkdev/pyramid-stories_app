@@ -5,7 +5,7 @@
 
 <section class="section-card background-color-yellow">
     <div class="padding-global">
-                        <a name="features" />
+        <a name="features" />
 
         <div class="container-main">
         <div class="padding-section-large w-full">
@@ -54,6 +54,8 @@
 
 
 <style>
-
+.section-card.background-color-yellow {
+  background-color: var(--yellow);
+}
 
 </style>

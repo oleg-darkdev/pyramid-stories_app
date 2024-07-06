@@ -36,15 +36,12 @@
 
 
 <style>
-  .section-faq {
-  /* position: relative; */
+.section-faq {
+  
 }
 .section-faq.background-color-gr-n {
   background-color: var(--green);
 }
-
-  
-
 .tab-wrap {
   grid-area: 1/2/2/6;
 }

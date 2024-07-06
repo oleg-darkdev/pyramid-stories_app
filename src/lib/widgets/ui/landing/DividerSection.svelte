@@ -6,8 +6,8 @@
         <div>
             <div class="margin-bottom margin-medium">
             <p class="text-size-regular">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
-</p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+            </p>
             </div>
             <div>
             <div class="heading-style-h6 text-color-gelb">dummy text of the printing and typesetting industry.</div>

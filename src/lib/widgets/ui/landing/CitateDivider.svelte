@@ -15,11 +15,7 @@
 </section>
 
 
-<!-- the-stories.png -->
-
-
 <style>
-    /* citate_divider.svg */
 .the-stories-banner {
   background-image: url(/images/1.png);
   background-position: 50%;

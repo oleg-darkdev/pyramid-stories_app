@@ -52,7 +52,6 @@
                             <!-- <a href='https://oleg-darkdev.vercel.app/' target="_blank"class="button infobox-open-mobile w-button">Get in touch</a> -->
                         </div>
                     </div>
-                    <!-- check this id -->
                     <div class="author-img image-wrap ">
                         <img src="images/oleg-darkdev.jpg" loading="lazy" alt="Oleg Medvedev photo" class="frame-image-portrait rotate-right">
                     </div>

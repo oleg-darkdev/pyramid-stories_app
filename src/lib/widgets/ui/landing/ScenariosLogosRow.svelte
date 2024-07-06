@@ -20,7 +20,7 @@
             swiping={true}
             > -->
                 {#each scenarios as scenario}
-                    <img src="{scenario.icon}" loading="lazy" alt="{scenario.title} - Logo" class="kundenlogo">
+                    <img src="{scenario.icon}" loading="lazy" alt="{scenario.title} - Logo" class="scenarion-logo">
                 {/each}
             <!-- </Carousel>
         {/if} -->
@@ -30,30 +30,30 @@
 
 
 <style>
-.kundenlogo {
+.scenarion-logo {
   /* filter: invert(54%); */
   width: 12rem;
   /* margin-right: 1rem; */
 }
-.kundenlogo.large {
+.scenarion-logo.large {
   width: 8rem;
 }
 
 @media screen and (max-width: 767px) {
-  .kundenlogo {
+  .scenarion-logo {
     width: 6rem;
   }
-  .kundenlogo.large {
+  .scenarion-logo.large {
     width: 6rem;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .kundenlogo {
+  .scenarion-logo {
     width: 8rem;
     /* margin-right: 3rem; */
   }
-  .kundenlogo.large {
+  .scenarion-logo.large {
     width: 4rem;
   }
 }

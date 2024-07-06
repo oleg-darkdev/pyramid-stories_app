@@ -1,4 +1,4 @@
-<section class="section-the-stories-banner background-color-yellow">
+<section class="section-the-stories-banner background-color-yellow ">
   <a href="https://the-stories.vercel.app/" target="_blank" class="no-underline">
   <div class="_50-50-container">
         <div class="the-stories-section-wrap_50 ">

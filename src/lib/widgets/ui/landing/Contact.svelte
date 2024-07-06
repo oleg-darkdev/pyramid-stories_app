@@ -21,7 +21,7 @@ const contacts = [
 ]
 </script>
 
-<section  class="section-kontakt background-color-blue">
+<section  class="section-contact background-color-blue">
   <div class="padding-global">
     <a name="contact" />
 
@@ -32,8 +32,8 @@ const contacts = [
             <div class="margin-bottom margin-xhuge no-margin-mobile">
               <h2 class="heading-style-h0 text-color-black">Contact</h2>
             </div>
-            <!-- check this id -->
-            <div id="w-node-f173ea2b-b5de-f2e3-9784-7f1b4c13ea9d-c0c55947" class="slideup-1">
+            
+            <div class="get-in-touch slideup-1">
               <div class="margin-bottom margin-xlarge">
                 <h3 class="heading-style-h4">
                   If you have ideas for collaboration 
@@ -59,3 +59,15 @@ const contacts = [
     </div>
   </div>
 </section>
+
+
+<style>
+.get-in-touch {
+  grid-area: 2/1/3/5;
+}
+@media screen and (max-width: 991px) {
+ .get-in-touch {
+    grid-column-end: 3;
+  }
+}
+</style>

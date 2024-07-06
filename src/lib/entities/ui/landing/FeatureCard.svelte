@@ -2,7 +2,7 @@
     export let feature;
 </script>
 
-<div class="info-box background-color-orange h-muster {feature.brandBg}">
+<div class="info-box background-color-orange {feature.bgImg} {feature.brandBg}">
     <div class="margin-bottom margin-medium">
     <h4 class="heading-style-h4 text-color-creme">{feature.title}</h4>
     </div>
