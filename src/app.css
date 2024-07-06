@@ -3,10 +3,30 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: 'courier-prime';
+    src: url('fonts/CourierPrime-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'din-2014-narrow';
+    src: url('fonts/DIN-2014_Narrow-Extra-Bold.otf');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'din-2014-narrow';
+    src: url('fonts/DIN-2014_Narrow-Demi.otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
 .heading-style-zahlen {
   letter-spacing: -2px;
   text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 5rem;
   font-weight: 800;
   line-height: 0.95;
@@ -2044,7 +2064,7 @@ textarea.w-select {
 body {
   background-color: var(--creme);
   color: var(--darkGray);
-  font-family: courier-prime, sans-serif;
+  font-family: 'courier-prime', sans-serif;
   font-size: 1rem;
   line-height: 1.3;
 }
@@ -2053,7 +2073,7 @@ h1 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 6.25rem;
   font-weight: 800;
   line-height: 1;
@@ -2063,7 +2083,7 @@ h2 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 5rem;
   font-weight: 800;
   line-height: 0.95;
@@ -2073,7 +2093,7 @@ h3 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 3.75rem;
   font-weight: 800;
   line-height: 1;
@@ -2083,7 +2103,7 @@ h4 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 1;
@@ -2092,7 +2112,7 @@ h5 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 1;
@@ -2102,7 +2122,7 @@ h6 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1;
@@ -2153,7 +2173,7 @@ figure {
 .heading-style-h4 {
   letter-spacing: -0.5px;
   text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 1;
@@ -2496,7 +2516,7 @@ figure {
 .heading-style-h2 {
   letter-spacing: -2px;
   text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 5rem;
   font-weight: 800;
   line-height: 0.95;
@@ -2535,7 +2555,7 @@ figure {
 .heading-style-h3 {
   letter-spacing: -1.75px;
   text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 3.75rem;
   font-weight: 800;
   line-height: 1;
@@ -2814,7 +2834,7 @@ figure {
 .heading-style-h6 {
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1;
@@ -2860,7 +2880,7 @@ figure {
 .heading-style-h5 {
   letter-spacing: 0;
   text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 1;
@@ -2899,7 +2919,7 @@ figure {
   text-transform: uppercase;
   border-radius: 100rem;
   padding: 0.75rem 1.5rem 0.6rem;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1;
@@ -3040,7 +3060,7 @@ figure {
 .heading-style-h1 {
   letter-spacing: -2px;
   text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 6.25rem;
   font-weight: 800;
   line-height: 1;
@@ -3147,7 +3167,7 @@ figure {
 .heading-style-h0 {
   letter-spacing: -2px;
   text-transform: uppercase;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 12rem;
   font-weight: 800;
   line-height: 0.9;
@@ -3158,7 +3178,7 @@ figure {
   letter-spacing: -2px;
   text-transform: uppercase;
   width: 100%;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 5rem;
   font-weight: 800;
   line-height: 1;
@@ -3213,7 +3233,7 @@ figure {
   justify-content: center;
   align-items: center;
   padding: 0;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -3258,7 +3278,7 @@ figure {
   flex: none;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
@@ -3379,7 +3399,7 @@ figure {
   background-size: cover;
 }
 .box-nummer {
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 5rem;
   font-weight: 800;
   line-height: 0.7;
@@ -3829,7 +3849,7 @@ figure {
   position: relative;
 }
 
-.katie-caiger-slide-wrap {
+.the-stories-wrap {
   z-index: 0;
 }
 
@@ -3889,7 +3909,7 @@ figure {
   text-transform: uppercase;
   flex: none;
   margin-right: 4vw;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
 }
@@ -3944,7 +3964,7 @@ figure {
   flex-direction: column;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  font-family: din-2014-narrow, sans-serif;
+  font-family: 'din-2014-narrow', sans-serif;
   font-weight: 700;
 }
 .locale:hover {
@@ -4465,9 +4485,7 @@ figure {
     grid-template-columns: 1fr;
   }
 
-  .akkordeon-content-wrap {
-    padding-left: 3.7rem;
-  }
+
 
   .text-field,
   .text-area {
@@ -4732,10 +4750,7 @@ figure {
     margin-bottom: 2rem;
   }
 
-  .akkordeon-content-wrap {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
 
   .text-field {
     font-size: 1rem;
@@ -4814,9 +4829,7 @@ figure {
 #w-node-aecbc84e-9f7f-db65-b70f-cd62f16744cc-c0c55947 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
-#w-node-_05f20edc-f65a-f3e0-75a5-784e0b1deca7-c0c55947 {
-  grid-area: 2/3/3/4;
-}
+
 #w-node-_06f26155-0699-2408-d06c-622b57df7727-c0c55947 {
   grid-area: span 1 / span 1 / span 1 / span 1;
   align-self: end;
@@ -4956,9 +4969,7 @@ figure {
   #w-node-_9a717966-a8ae-dad7-8c7f-35bc47ae540c-c0c55947 {
     grid-column: span 1 / span 1;
   }
-  #w-node-_05f20edc-f65a-f3e0-75a5-784e0b1deca7-c0c55947 {
-    grid-area: span 1 / span 1 / span 1 / span 1;
-  }
+
 
   #w-node-db94d272-2b0a-2ce5-a5bc-51b8d0abeec1-c0c55947 {
     grid-area: span 1 / span 1 / span 1 / span 1;
