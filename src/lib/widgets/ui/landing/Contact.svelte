@@ -6,17 +6,17 @@ const contacts = [
    {
     title: 'Website',
     href: 'https://oleg-darkdev.vercel.app/',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting'
+    desc: 'See my other historical projects and educational board games on my website.'
   },
   {
     title: 'Github',
     href: 'https://github.com/oleg-darkdev',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting'
+    desc: 'My open sorce projects are available on github.'
   },
   {
     title: 'Linkedin',
     href: 'https://www.linkedin.com/in/oleg-darkdev',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting'
+    desc: 'Say me Hello from Linkedin.'
   },
 ]
 </script>
@@ -36,9 +36,9 @@ const contacts = [
             <div id="w-node-f173ea2b-b5de-f2e3-9784-7f1b4c13ea9d-c0c55947" class="slideup-1">
               <div class="margin-bottom margin-xlarge">
                 <h3 class="heading-style-h4">
-                  Lorem Ipsum is simply dummy text of 
+                  If you have ideas for collaboration 
                    <br> 
-                  Lorem Ipsum is simply dummy text of 
+                  - I'd be glad to communicate.
                 </h3>
               </div>
               <div class="image-wrap">

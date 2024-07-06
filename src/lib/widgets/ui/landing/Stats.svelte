@@ -15,7 +15,7 @@
         <div  class="zahlen-wrap slideup-2 bg-black">
             <a name="about" />
             <div class="margin-bottom margin-medium">
-                <h2 class="heading-style-h1 text-color-creme">Lorem <br> Ipsum </h2>
+                <h2 class="heading-style-h1 text-color-creme">In <br> numbers. </h2>
             </div>
                 <div class="width-50 mb-10">
                     <p class="text-size-regular text-neutral-300 slideup-1">

@@ -36,15 +36,15 @@
             <div id="w-node-_05f20edc-f65a-f3e0-75a5-784e0b1deca7-c0c55947">
                 <div class="margin-bottom margin-small">
                 <div class="heading-style-h4">
-                    Lorem Ipsum is simply
+                    It's time to get started!
                 </div>
                 </div>
                 <div class="text-size-regular">
-                    Lorem Ipsum is simply  
+                    That's already 
                     <br>
-                    dummy text of the printing </div>
+                    enough to start playing </div>
                 <div class="button-wrap">
-                <a href="/" class="button button-color-orange w-button">Lorem Ipsum is simply </a>
+                    <a href="/app" class="button button-color-orange w-button">Go to app</a>
                 </div>
             </div>
             </div>
