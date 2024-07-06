@@ -1,7 +1,7 @@
 <script>
   import {contacts, navigation} from '$shared'; 
 
-  let showMenu = true;
+  let showMenu = false;
 </script>
 
 <nav role="banner" class="nav w-nav">
