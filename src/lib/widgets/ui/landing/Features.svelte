@@ -1,6 +1,6 @@
 <script>
     import {FeatureCard} from '$entities';
-    import {features} from '$shared'; 
+    import {features} from '$shared';
 </script>
 
 <section class="section-card background-color-yellow">
@@ -8,9 +8,9 @@
                         <a name="features" />
 
         <div class="container-main">
-        <div class="padding-section-large">
+        <div class="padding-section-large w-full">
             <div class="card-container hide-tablet">
-                <div class="katie-caiger-slide-wrap">
+                <div class="the-stories-wrap">
                     <h2 class="heading-style-h0 text-color-orange">Pyramid Stories Features </h2>
                 </div>
 
@@ -20,35 +20,40 @@
 
                 <div class="margin-bottom margin-xhuge">
                     <h3 class="heading-style-h2">
-                        Lorem Ipsum is simply  
+                        Educational boardgame
                         <br>
-                        dummy text of the printing 
+                        with mega features
                     </h3>
                 </div>
             </div>
-            
-            <div class="w-layout-grid _3-columns-grid">
+
+            <div class="w-layout-grid _3-columns-grid mb-20">
                 {#each features as feature}
                     <FeatureCard {feature} />
                 {/each}
+            </div>
 
-            <!-- check this id -->
-            <div id="w-node-_05f20edc-f65a-f3e0-75a5-784e0b1deca7-c0c55947">
+              <div class='w-full flex flex-col  content-end items-end'>
                 <div class="margin-bottom margin-small">
                 <div class="heading-style-h4">
                     It's time to get started!
                 </div>
                 </div>
                 <div class="text-size-regular">
-                    That's already 
+                    That's already
                     <br>
                     enough to start playing </div>
                 <div class="button-wrap">
                     <a href="/app" class="button button-color-orange w-button">Go to app</a>
                 </div>
             </div>
-            </div>
         </div>
         </div>
     </div>
 </section>
+
+
+<style>
+
+
+</style>
