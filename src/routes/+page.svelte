@@ -1,12 +1,12 @@
 <script>
 // import {  } from '$lib/shared';
-import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStories, AboutAuthor, CrossLines, Stats, Scenarios, Footer, Contact, Faq, CitateDivider, CtaScenarios, } from '$lib/widgets';
+import { Nav, Hero, Intro, ScenariosLogosRow, TheStoriesDivider, DividerSection, Features, TheStories, AboutAuthor, CrossLines, Stats, Scenarios, Footer, Contact, Faq, CitateDivider, CtaScenarios, } from '$lib/widgets';
 // import {  } from '$lib/entities'
 </script>
 
 
 <svelte:head>
-<title>Title</title>
+<title>THE Pyramids Stories</title>
 </svelte:head>
 
 
@@ -92,8 +92,8 @@ import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStori
 
       <TheStories />
       
-     
-      <CitateDivider />
+      <TheStoriesDivider />
+      <!-- <CitateDivider /> -->
 
       <!-- dublicate -->
       <!-- <div class="section-doing background-color-lila">
@@ -141,15 +141,15 @@ import { Nav, Hero, Intro, ScenariosLogosRow, DividerSection, Features, TheStori
       
       <Scenarios />
 
-<CtaScenarios />
+  <CtaScenarios />
 
 
 <!-- big real photo -->
-<div class="section-fullscreen">
-  <div>
-    <img src="images/oleg-darkdev-vibe.jpg" loading="lazy" alt="Boardgame conception photo">
-  </div>
-</div>
+  <!-- <div class="section-fullscreen">
+    <div>
+      <img src="images/oleg-darkdev-vibe.jpg" loading="lazy" alt="Boardgame conception photo">
+    </div>
+  </div> -->
 
 <!-- no ideas -->
 <!-- <div class="section-final">
