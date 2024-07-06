@@ -3,8 +3,9 @@
   <div class="_50-50-container">
         <div class="the-stories-section-wrap_50 ">
         <div class="margin-bottom margin-medium">
+            <p class="heading-style-zahlen text-style-link lg:mb-8 mb-4">  THE Stories - </p> 
             <p class="heading-style-zahlen">
-                THE Stories - series of historical educational games.
+                 series of historical educational games.
             </p>
         </div>
         <div class="heading-style-h6">(Boardgames available: 7)</div>

@@ -1,4 +1,4 @@
-<div class="section-zitat">
+<section class="section-zitat">
   <div class="_50-50-container">
     <div class="_50-wrap">
       <div class="margin-bottom margin-medium">
@@ -17,4 +17,21 @@
     </div>
     <div class="_50-wrap how-muster"></div>
   </div>
-</div>
+</section>
+
+
+<style>
+    /*  */
+.how-muster {
+  background-image: url(/images/citate_divider.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-zitat {
+  position: relative;
+}
+
+
+</style>
