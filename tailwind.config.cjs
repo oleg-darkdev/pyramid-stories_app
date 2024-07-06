@@ -3,9 +3,8 @@ module.exports = {
 	theme: {
 		extends: {},
 		fontFamily: {
-			inter: ['inter', 'sans-serif'],
-			poppins: ['poppins', 'serif'],
-			'fira-mono': ['fira-mono']
+			courierPrime: ['courier-prime', 'sans-serif'],
+			din: ['din-2014-narrow', 'sans-serif'],
 		}
 	},
 	plugins: [require('@tailwindcss/typography'), require('daisyui')],
