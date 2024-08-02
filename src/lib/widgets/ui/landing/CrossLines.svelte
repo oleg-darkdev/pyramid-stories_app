@@ -1,6 +1,6 @@
 <script>
-    import {tagsLeft, tagsRight} from '$shared'; 
-    import {scenarios} from '$shared'; 
+    import {tagsLeft, tagsRight} from '$shared';
+    import {pyramidsFullList} from '$shared';
 </script>
 
 
@@ -8,7 +8,7 @@
   <div class="words-container">
     <div class="carousel left">
       <div class="words-carousel-wrap left">
-        {#each scenarios as scenario}
+        {#each pyramidsFullList as scenario}
           <div class="marquee-text">{scenario.country}</div>
         {/each}
       </div>
@@ -20,7 +20,7 @@
     </div>
     <div class="carousel right">
       <div class="words-carousel-wrap right">
-        {#each scenarios as scenario}
+        {#each pyramidsFullList as scenario}
           <div class="marquee-text">{scenario.title}</div>
         {/each}
       </div>

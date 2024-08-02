@@ -1,6 +1,6 @@
 <script>
   import {ScenarioCard} from '$entities';
-  import {scenarios} from '$shared'; 
+  import {pyramidsFullList} from '$shared';
 </script>
 
 
@@ -19,7 +19,7 @@
     <div class="container-large">
       <div class="margin-bottom margin-xhuge">
         <div class="_3-columns-grid">
-          {#each scenarios as scenario}
+          {#each pyramidsFullList as scenario}
             <ScenarioCard {scenario}/>
           {/each}
         </div>
