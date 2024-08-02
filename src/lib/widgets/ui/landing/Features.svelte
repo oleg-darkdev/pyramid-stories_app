@@ -54,8 +54,6 @@
 
 
 <style>
-.section-card.background-color-yellow {
-  background-color: var(--yellow);
-}
+
 
 </style>
