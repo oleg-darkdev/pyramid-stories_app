@@ -1,3 +1,4 @@
+// landing
 import Nav from './ui/landing/Nav.svelte';
 import Hero from './ui/landing/Hero.svelte';
 import Intro from './ui/landing/Intro.svelte';
@@ -15,8 +16,14 @@ import CitateDivider from './ui/landing/CitateDivider.svelte';
 import TheStories from './ui/landing/TheStories.svelte';
 import DividerSection from './ui/landing/DividerSection.svelte';
 import TheStoriesDivider from './ui/landing/TheStoriesDivider.svelte';
-// import CitateDivider from './ui/landing/CitateDivider.svelte';
+
+
+
+// app
+import FooterApp from './ui/app/FooterApp.svelte';
 // import CitateDivider from './ui/landing/CitateDivider.svelte';
 
 
-export { Nav, Hero, Intro, ScenariosLogosRow, TheStoriesDivider, DividerSection, TheStories, Features, AboutAuthor, CrossLines, CitateDivider, Stats, Scenarios, Footer, Contact, Faq, CtaScenarios };
+
+
+export { Nav, Hero, Intro, FooterApp, ScenariosLogosRow, TheStoriesDivider, DividerSection, TheStories, Features, AboutAuthor, CrossLines, CitateDivider, Stats, Scenarios, Footer, Contact, Faq, CtaScenarios };
