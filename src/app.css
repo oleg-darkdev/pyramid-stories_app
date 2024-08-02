@@ -3343,16 +3343,7 @@ figure {
   position: relative;
 }
 
-.logo-carousel-wrap {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  flex: none;
-  width: auto;
-  margin-top: 0;
-  margin-bottom: 2rem;
-  display: flex;
-  transform: perspective(1px);
-}
+
 .background-color-yellow {
   background-color: var(--yellow);
   color: var(--darkGray);
