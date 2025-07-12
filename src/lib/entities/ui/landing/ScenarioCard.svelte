@@ -27,7 +27,7 @@
       {/each}
 
       <div class="flex flex-row flex-wrap justify-between mt-4">
-            <a href='/app' class="button button-color-black w-button">Play this scenario</a>
+            <a href='/app' class="button button-color-black w-button">Play scenario</a>
             <button class="button button-color-black w-button" on:click={()=> showFullInfo = !showFullInfo}>
                 <img src="{scenario.avatar}" alt='{scenario.title} btn'  class='w-6  h-6 {showFullInfo ? '': 'rotate-180'}'/>
             </button>
